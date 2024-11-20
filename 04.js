@@ -4,7 +4,8 @@
   código dentro de las funciones ya definidas. 
   No comentar la funcion 
 */
-
+const num1 = 11711;
+const num2 = 12711;
 function numeroSimetrico(num) {
   // La funcion llamada 'numeroSimetrico' recibe como argumento un numero entero 'num'
   // Esta devuelve true o false dependiendo de si el número es simétrico o no. 
@@ -14,7 +15,10 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  return ""+num === (""+num).split("").reverse().join("")
 }
+console.log(numeroSimetrico(num1));
+console.log(numeroSimetrico(num2));
 
 // No modifiques nada debajo de esta linea //
 
